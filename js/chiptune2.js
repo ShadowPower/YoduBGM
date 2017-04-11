@@ -116,6 +116,10 @@ ChiptuneJsPlayer.prototype.togglePause = function() {
   }
 }
 
+ChiptuneJsPlayer.prototype.isPaused = function() {
+  return this.currentPlayingNode.paused;
+}
+
 ChiptuneJsPlayer.prototype.createLibopenmptNode = function(buffer, config) {
   // TODO error checking in this whole function
 

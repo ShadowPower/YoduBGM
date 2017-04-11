@@ -44,7 +44,9 @@ function next() {
         yaudio.src = sj.mp3;
         yaudio.ti = sj.title;
         yaudio.art = sj.artist;
-        yaudio.play();
+        setTimeout(function () {      
+            yaudio.play();
+        }, 500);
     }
     var autopause=0;
     oyd.className = 'yodu-player icon-musical-note';
