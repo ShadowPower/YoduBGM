@@ -47,7 +47,7 @@ if(Typecho_Widget::widget('Widget_Options')->Plugin('YoduBGM')->sxj=='0'){
 
 		echo '
 <bgm>			
-<a class="ymusic" onclick="playbtu();" target="_blank"><i id="ydmc"></i></a><a class="ymusic" onclick="next();" id="ydnext" target="_blank"><i class="iconfont icon-you"></i></a>
+<a class="ymusic" onclick="playbtu();" target="_blank"><i id="ydmc"></i></a><a class="ymusic" onclick="next();" id="ydnext" target="_blank"><i class="yodu-player iconfont icon-you"></i></a>
 </bgm>
              ';
        
