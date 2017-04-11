@@ -1,7 +1,7 @@
 ## 这是什么
 这是修改版的 YoduBGM ，解决了与 Handsome 主题的兼容性问题（Handsome内置了YoduBGM），并增加 mod 音频播放功能。
 
-依赖(chiptune2.js)[https://github.com/deskjet/chiptune2.js]，稍作修改，以识别当前播放状态。
+依赖[chiptune2.js](https://github.com/deskjet/chiptune2.js)，稍作修改，以识别当前播放状态。
 
 需要注意： libopenmpt.js 的体积有 __2.14MB__ ，请慎重考虑使用。
 
